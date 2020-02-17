@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.navbar h1{
+	font-family: 'Lobster', cursive;
+}
+
+
+/*==============*/
+
+.content-wrapper .carded .card,
+.content-wrapper .banners .card{
+	border-radius: 10px;
+	overflow: hidden;
+	height: 350px;
+}
+
+.content-wrapper .carded .card img{
+	height: 100%;
+	transition: transform .3s;
+}
+.content-wrapper .carded .card img:hover,
+.content-wrapper .finditems .card img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.content-wrapper .carded .card span{
+	margin-top: -80px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content-wrapper .carded .card span h3{
+	position: relative;
+	font-family: 'Lobster', cursive;
+}
+
+.content-wrapper .carded .card span p{
+	position: relative;
+	bottom: -15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content-wrapper .carded .card span h3,
+.content-wrapper .carded .card span p{
+	text-shadow: 1px 1px 5px #202020;
+}
+
+.content-wrapper .banners .card{
+	height: 400px;
+}
+.content-wrapper .banners .card img{
+	width: 100%;
+	height: 400px;
+}
+
+.content-wrapper .findall hr{
+	border: 1px solid;
+}
+
+.content-wrapper .findall span{
+	border: 2px solid;
+	border-radius: 10px;
+	background: white;
+	font-family: 'Lobster', cursive;
+}
+
+.content-wrapper .finditems .card{
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.content-wrapper .finditems .card img{
+	transition: transform .3s;
+	width: 100%;
+	height: 300px;
+}
+.content-wrapper .finditems .info{
+	padding: 5px;
+	margin-top: -95px;
+	position: relative;
+	margin-bottom: -20px;
+	z-index: 2;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+}
+.content-wrapper .finditems .btn{
+	position: relative;
+	z-index: 999;
+	border-radius: 0px;
+}
+.content-wrapper .finditems .info img{
+	width: 50px;
+	height: 50px;
+	padding: 2px;
+	background: white;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+.content-wrapper .finditems a{
+	font-family: 'Acme', sans-serif;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+}
+.content-wrapper .finditems b{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: -20px;
+}
+
+.content-wrapper .finditems small:hover{
+	cursor: pointer;
+}
+
+.content-wrapper .custom-card{
+	font-family: 'Montserrat', sans-serif;
+}
+.content-wrapper .custom-card h3{
+	font-size: 30px;
+}
+.content-wrapper .custom-card p{
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.content-wrapper .store h3{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	background: white;
+	margin-left: 20px;
+	padding: 5px;
+}
+.content-wrapper .store hr{
+	border: 1px solid;
+	margin-top: 21px;
+}

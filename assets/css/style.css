@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* SEMANTIC COLOR */
+
+.text-shadow{
+	text-shadow: 1px 1px 5px #202020;
+}
+
+.container-fluid{
+	 width: default; 
+	 margin: auto;
+}
+
+/*=================================*/
+nav{
+	position: relative;
+	z-index: 999;
+	background-color: black;
+}
+
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	color: white;
+}
+
+.navbar-brand:hover{
+	color: #ff8383 !important;
+}
+
+.nav-item{
+	font-family: 'Acme', sans-serif;
+	font-size: 18px;
+	margin-right: 15px;
+	color: white;
+}
+
+.navbar-nav a:hover{
+	color: #ff8383 !important;
+}
+
+.btnHome{
+	color: white;
+}
+.btnJoin{
+	border: 1px solid;
+	width: 100%;
+	font-weight: bold;
+	background: transparent;
+}
+
+.btnJoin:hover{
+	border: 1px solid white;
+	background: white;
+}
+
+/*=====*/
+
+.banner{
+	height: 800px;
+	position: relative;
+	background-image: url('http://localhost/Digiarch/assets/img/web/banner.jpg');
+	background-size: cover;
+	background-position: none;
+	background-repeat: no-repeat;
+	top: -90px;
+	margin-bottom: -90px;
+	z-index: 1;
+}
+
+.banner .container h1{
+	padding-top: 100px;
+	font-family: 'Acme', sans-serif;
+	font-size: 38px;
+	color: white; 
+}
+.banner .container input{
+	padding: 10px;
+	margin-right: 0;
+	box-shadow: inset 0 0px 0 #ddd;
+}
+
+.banner .container .mostpopular a{
+	color: white;
+	border: 1px solid;
+	padding: 5px;
+	margin-left: 5px;
+	text-decoration: none;
+}
+.banner .container .mostpopular a:hover{
+	color: #eee;
+}
+
+/*======================*/
+.popitems h4,
+.categories h4,
+.creator h4{
+	margin-left: 0px;
+	font-family: 'Acme', sans-serif;
+}
+
+.popitems .card{
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	background: #eee;
+}
+
+.popitems .card:hover{
+	cursor: pointer;
+}
+
+.popitems .card img{
+	width: 100%;
+	height: 300px;
+}
+.popitems .card .card-item{
+	padding: 10px;
+	color: white;
+	margin-top: -100px;
+}
+.popitems .card .card-item p{
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	bottom: -20px;
+	font-size: 14px;
+}
+
+.popitems .card .card-item b{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+}
+
+/*==============================*/
+.bseller h5,
+.bseller h2{
+	font-family: 'Acme', sans-serif;
+}
+.bseller p{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+}
+
+.bseller img{
+	width: 100%;
+	position: relative;
+	right: 0px;
+}
+
+.btnBseller{
+	border: 1px solid #ff8383;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+	background: white;
+	color: #ff8383;
+	margin-top: 40px;
+}
+
+.btnBseller:hover{
+	border: 1px solid #ff8383;
+	background: #ff8383;
+}
+
+.bseller i{
+	color: #ff8383;
+}
+
+/*=====================*/
+
+.categories p{
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.categories i{
+	font-size: 50px;
+}
+
+.categories .justify-content-center,
+.categories .justify-content-center a{
+	color: #ff8383;
+}
+.categories .justify-content-center a:hover{
+	color: red;
+}
+
+.categories .justify-content-center .card{
+	border: none;
+}
+
+/*=====================================*/
+.exploreC{
+	background-image: url('http://localhost/Digiarch/assets/img/web/par.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	color: white;
+	width: 100%; 
+	border-radius: 0px;
+}
+
+.exploreC h4{
+	font-size: 32px;
+	font-family: 'Lobster', cursive;
+}
+.exploreC h3{
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.exploreC a{
+	font-family: 'Acme', sans-serif;
+	font-size: 18px;
+	background: transparent;
+	color: #ff8383;
+	border: 1px solid #ff8383;
+}
+
+.exploreC a:hover{
+	background: #ff8383;
+	color: white;
+	border: 1px solid #ff8383;
+}
+
+.creator .imgCover{
+	height: 300px;
+}
+
+.creator .carditem img{
+	width: 50px;
+	height: 50px;
+}
+
+.creator .carditem b{
+	font-family: 'Acme', sans-serif;
+	position: absolute;
+	width: 240px;
+}
+
+
+footer{
+	background-color: #202020;
+	color: white;
+	height: 80px;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer a{
+	color: #ff8383;
+	text-shadow: 2px 2px 10px white;
+}
+
+footer a:hover{
+	color: white;
+}
+
+
+/*================ MODAL =====================*/
+
+.modal .modal-title{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #ff8383;
+}
+
+.modal .modal-body{
+	padding: 20px;
+}
+
+.modal .modal-body input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	outline: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.modal .modal-body button{
+	width: 100%;
+	padding: 10px;
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+	background: #ff8383;
+	color: white;
+	border: 1px solid #ff8383;
+}
+
+
+
+
+
+
+
+
+/* TAMPILAN MOBILE */
+
+@media (min-width: 992px)
+{
+	nav{
+		position: relative;
+		z-index: 999;
+		background: none;
+	}
+	.btnJoin{
+		border: 1px solid;
+		width: 100px;
+		font-weight: bold;
+		background: transparent;
+	}
+	.banner{
+		background-position: bottom;
+	}
+	.banner .container h1{
+		padding-top: 150px;
+		font-family: 'Acme', sans-serif;
+		font-size: 50px;
+		color: white; 
+	}
+	.banner .container input{
+		padding: 10px;
+		margin-right: 330px;
+		box-shadow: inset 0 0px 0 #ddd;
+	}
+
+	.popitems .card{
+		max-width: 220px;
+		max-height: 300px;
+	}
+	.bseller img{
+		width: 800px;
+		position: relative;
+		right: 25px;
+	}
+	.categories p{
+		font-size: 18px;
+	}
+	.exploreC h3{
+		font-size: 32px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.container-fluid{
+		width: 1400px; 
+		margin: auto;
+	}
+	.exploreC{
+		width: 1300px; 
+		border-radius: 10px;
+	}
+
+}
