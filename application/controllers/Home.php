@@ -10,6 +10,8 @@ class Home extends CI_Controller {
 
 	public function signUp()
 	{
+// 		FUNCTION REGISTER / SIGN UP ACCOUNT
+		
 		$this->form_validation->set_rules('name', 'Name', 'required|min_length[4]|max_length[20]');
 		$this->form_validation->set_rules('email', 'Email Address', 'required|is_unique[users.email]');
 		$this->form_validation->set_rules('password', 'Password', 'required|min_length[4]');
