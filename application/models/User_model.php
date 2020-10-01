@@ -4,7 +4,7 @@
 
 class User_model extends CI_Model {
 
-
+// 	FUNCTION SIGN UP / INPUT DATA USER TO DATABASES
 	public function signUp() {
 		$data = 
 		[	"id" => "",
