@@ -5,7 +5,7 @@ class Item_model extends CI_Model {
 
 	public function create()
 	{
-
+// 	FUNCTION CREATE ITEM/GOODS / INPUT TO DATABASE
 		$image = $_FILES["img"]["name"];
 		if($image) {
 			$config['allowed_types'] = 'jpg|png';
