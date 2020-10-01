@@ -6,6 +6,7 @@ class Profile extends CI_Controller {
 
 	public function index($id)
 	{
+// 		IF $ID NOT EMPTY CONTINUE
 		if( !empty($id))
 		{
 			if( $result = $this->db->get_where('users', ["id" => $id])->row_array() )
