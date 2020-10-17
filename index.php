@@ -1,8 +1,8 @@
 <?php
 /**
- * CodeIgniter
+ * CodeIgniters
  *
- * An open source application development framework for PHP
+ * An open source application development framework for PHPs
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,8 +38,7 @@
 
 /*
  *---------------------------------------------------------------
-//  no
- * APPLICATION ENVIRONMENT
+
  *---------------------------------------------------------------
  *
  * You can load different configurations depending on your
