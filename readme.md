@@ -24,7 +24,7 @@ Build with :
 
 # Follow Me 
 - Facebook  : https://facebook.com/alliensec
-- Instagram : https://instagram.com/azmifauzy.id
+- Instagram : https://instagram.com/azmifxuzy
 
 
 Thanks :)
