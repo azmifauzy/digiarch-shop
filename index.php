@@ -2,10 +2,10 @@
 /**
  * CodeIgniters
  *
- * An open source application develospments framework for PHzz
+
  *
- * This content is releeased under the MIT License (MIT)
- *
+ * This content is releeased unssser the MIT License (MIT)
+ *s
  * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
