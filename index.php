@@ -2,7 +2,7 @@
 /**
  * CodeIgniters
  *
- * An open source application develossssspment framework for PHPs
+ * An open source application development framework for PHPs
  *
  * This content is released under the MIT License (MIT)
  *
