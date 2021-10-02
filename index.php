@@ -4,7 +4,7 @@
  *
 
  *
- * This content is releeased unssser the MIT License (MIT)
+ * This content is releeased unssser the MIT Licssense (MIT)
  *s
  * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
  *
