@@ -2,7 +2,7 @@
 /**
  * CodeIgnitersz
  *
- * An open source application develospments frameasdfor PHPs
+
  *
  * This content is releeased unssser the MIT License (MIT)
  *s
