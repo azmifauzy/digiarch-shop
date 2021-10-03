@@ -94,7 +94,7 @@ CREATE TABLE `transactions` (
 
 INSERT INTO `transactions` (`id`, `buyer_id`, `buyer_name`, `item_id`, `item_seller`, `seller_id`, `item_title`, `item_price`, `process`, `date`) VALUES
 (4, 18, 'Keisya Puspitasari', 38, 'Azmifauzy', 17, 'Rocket Launcher Digital Art', 130000, 'Not Yet', 1581095798),
-(5, 17, 'Azmifauzy', 39, 'Keisya Puspitasari', 18, 'Joji "Run" Graph Design', 300000, 'DONE', 1581098107);
+(5, 17, 'Azmi mtfker', 39, 'Keisya Puspitasari', 18, 'Joji "Run" Graph Design', 300000, 'DONE', 1581098107);
 
 -- --------------------------------------------------------
 
