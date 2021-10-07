@@ -6,6 +6,7 @@ class Profile extends CI_Controller {
 
 	public function index($id)
 	{
+// 		JIKA ID TIDAK KOSONG 
 // 		IF $ID NOT EMPTY CONTINUE
 		if( !empty($id))
 		{
