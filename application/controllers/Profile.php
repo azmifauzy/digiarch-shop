@@ -46,6 +46,7 @@ class Profile extends CI_Controller {
 		}
 	}
 
+// 	this is function delete
 	public function delete($id)
 	{
 		if( $this->Item_model->readIt($id) > 0 )
