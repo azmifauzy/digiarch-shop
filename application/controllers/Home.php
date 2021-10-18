@@ -26,6 +26,7 @@ class Home extends CI_Controller {
 
 		}
 	}
+// 	this is function signIn 
 	public function signIn()
 	{
 		$this->form_validation->set_rules('email', 'Email Address', 'required');
