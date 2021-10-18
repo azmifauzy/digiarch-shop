@@ -12,6 +12,7 @@ class Dashboard extends CI_Controller {
 		$this->load->view('dashboard/templates/footer');
 	}
 
+// 	this is function items
 	public function items($url = "", $id = "")
 	{
 
