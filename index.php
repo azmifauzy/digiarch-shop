@@ -1,6 +1,5 @@
 <?php
 /**
-// gr
  * CodeIgniter
  *
 
