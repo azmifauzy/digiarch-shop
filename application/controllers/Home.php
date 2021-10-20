@@ -43,6 +43,7 @@ class Home extends CI_Controller {
 		}
 	}
 
+// 	this is function signOut 
 	public function signOut()
 	{
 		if($this->session->userdata('id'))
